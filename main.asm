@@ -117,8 +117,8 @@ Spacelen: .equ SpacesString_len = (2 * (len - spaces)) - 1
 
 ; ***************************************************************************
 ; * Code written by:                                                      *
-; * Syed Tehseen ul Hasan Shah                                             *
-; * Lecturer, University of Engineering and Technology Lahore, Pakistan    *
+; * Affan, Areej, Ramsha, Hamna                                            *
+; * Students, University of Engineering and Technology Lahore, Pakistan    *
 ; * 24-December-2023                                                      *
 ; ***************************************************************************
 
