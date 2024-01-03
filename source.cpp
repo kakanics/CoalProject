@@ -6,19 +6,19 @@
 #include "ThingSpeak.h"
 
 // Wi-Fi credentials
-const char *ssid = "Galaxy";
-const char *password = "fzvg0533";
+const char *ssid = "";
+const char *password = "";
 
 // MQTT configuration
 const char *mqttServer = "broker.hivemq.com";
 const int mqttPort = 1883;
-const char *mqttClientId = "2022-CS-178";
-const char *outputTopic = "esp32/output";
+const char *mqttClientId = "";
+const char *outputTopic = "";
 WiFiClient espClient;
 
 // ThingSpeak configuration
-unsigned long myChannelNumber = 2391804;
-const char *myWriteAPIKey = "T7K0BZL98517507L";
+unsigned long myChannelNumber = 0;
+const char *myWriteAPIKey = "";
 String myStatus = "";
 
 // Firebase configuration
@@ -71,8 +71,8 @@ void WifiSetup()
 void fireBaseSetup()
 {
     // configure firebase
-    config.api_key = "AIzaSyBUr_U4sLQYtNtjkn_j0LPPXv0IVaCSu08";
-    config.database_url = "https://ldr-mqtt-esp-default-rtdb.asia-southeast1.firebasedatabase.app/";
+    config.api_key = "";
+    config.database_url = "";
 
     // try to connect
     if (Firebase.signUp(&config, &auth, "", ""))
